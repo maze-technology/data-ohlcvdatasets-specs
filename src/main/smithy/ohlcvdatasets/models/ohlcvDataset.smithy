@@ -4,6 +4,7 @@ namespace tech.maze.dtos.ohlcvdatasets.models
 
 use smithy.api#Document
 use smithy.api#Timestamp
+use tech.maze.dtos.ohlcvdatasets.types#Duration
 
 list OHLCVDatasetOhlcvsList {
     member: OHLCVData
@@ -15,7 +16,7 @@ structure OHLCVDataset {
     startAt: Timestamp
     ohlcvs: OHLCVDatasetOhlcvsList
     createdAt: Timestamp
-    market: Market
+    market: OHLCVDatasetMarket
 }
 
 structure OHLCVDatasetMarket {

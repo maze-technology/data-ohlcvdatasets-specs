@@ -5,6 +5,7 @@ namespace tech.maze.dtos.ohlcvdatasets.requests
 use smithy.api#Document
 use smithy.api#Timestamp
 use tech.maze.dtos.ohlcvdatasets.models#OHLCVDataset
+use tech.maze.dtos.ohlcvdatasets.types#Duration
 
 structure FindAggregated {}
 
