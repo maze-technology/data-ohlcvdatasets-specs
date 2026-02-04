@@ -1,14 +1,13 @@
 $version: "2"
+
 namespace tech.maze.dtos.ohlcvdatasets.monitoredmarkets.requests
 
 use tech.maze.dtos.ohlcvdatasets.search#Criterion
 
-structure Untrack {
-}
+structure Untrack {}
 
 structure UntrackRequest {
-  criterion: Criterion
+    criterion: Criterion
 }
 
-structure UntrackResponse {
-}
+structure UntrackResponse {}
