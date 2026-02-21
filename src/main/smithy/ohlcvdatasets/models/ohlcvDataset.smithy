@@ -7,7 +7,6 @@ use smithy.api#Document
 use smithy.api#Timestamp
 use tech.maze.dtos.commons.time#Duration
 
-@protoEnabled
 list OHLCVDatasetOhlcvsList {
     member: OHLCVData
 }

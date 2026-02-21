@@ -6,7 +6,6 @@ use alloy.proto#protoEnabled
 use smithy.api#Document
 use tech.maze.dtos.commons.time#Duration
 
-@protoEnabled
 union CriterionFilter {
     byId: Document
     byDataProviderIdAndMarketIdAndTimeframe: CriterionFilterByDataProviderIdAndMarketIdAndTimeframe
