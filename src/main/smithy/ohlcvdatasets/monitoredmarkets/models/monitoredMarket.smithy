@@ -9,9 +9,18 @@ use tech.maze.dtos.commons.time#Duration
 
 @protoEnabled
 structure MonitoredMarket {
+    @required
     id: Document
+
+    @required
     dataProviderId: Document
+    
+    @required
     marketCriterion: Document
+    
+    @required
     timeframe: Duration
+    
+    @required
     createdAt: Timestamp
 }
