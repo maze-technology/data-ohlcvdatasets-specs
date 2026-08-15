@@ -14,13 +14,13 @@ structure MonitoredMarket {
 
     @required
     dataProviderId: Document
-    
+
     @required
     marketCriterion: Document
-    
+
     @required
     timeframe: Duration
-    
+
     @required
     createdAt: Timestamp
 }

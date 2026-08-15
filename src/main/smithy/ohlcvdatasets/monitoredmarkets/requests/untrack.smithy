@@ -7,7 +7,7 @@ use tech.maze.dtos.ohlcvdatasets.monitoredmarkets.search#Criterion
 
 @protoEnabled
 structure Untrack {}
-    
+
 @protoEnabled
 structure UntrackRequest {
     @required
